@@ -1,0 +1,61 @@
+body{
+    width: 940px;
+    margin: 0px auto;
+    border: 0px solid black;
+}
+.w3-container{
+    width: 564px;
+    margin: 0px auto;
+}
+.w3-row a>div{
+    width:109px;
+}
+.lowerbody{
+    width:940px;
+   min-height:678px;
+    margin-left:-203px;
+    background-repeat: no-repeat;
+    background-image: url("../images/pool.jpg");
+    background-size: 940px 248px;
+}
+.centerbody{
+    height: 180px;
+    width: 940px;
+    border: 0px solid black;
+    margin-top: 172px;
+    text-align: center;
+    font-size: 9px;
+}
+.dataSection {
+    width: 564px;
+    margin: 0px auto;
+}
+.imagesArr{
+    margin-bottom: -2px;
+    margin-left: 4px;
+
+}
+.dataSection2{
+    background-color: #F3DDD2;
+    height: 211px;
+    margin-top: 20px;
+}
+.dataSection2 .w3-row-padding {
+    width: 564px;
+    margin: 0px auto;
+}
+.w3-row-padding .w3-col{
+    margin-top: 22px;
+}
+.w3-row-padding .w3-col img{
+    margin-bottom: 0px;
+}
+.w3-row-padding .w3-col span{
+    display: block;
+}
+.w3-row-padding .w3-col div{
+    margin-top: 15px
+}
+#mainContainer{
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="venueReportApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Venue Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../node_modules/w3-css/3/w3.css">
+    <link rel="stylesheet" href="../css/venuereport.css">
+    <script src="../javscript/dist/main.bundle.js"></script>
+    <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../javscript/src/venuereportCtrl.js"></script>
+
+    <style>
+        .active {
+            background-color: #fff!important;
+        }
+    </style>
+</head>
+<body>
+<div class="w3-container">
+<div class="w3-row">
+    <a ui-sref="welcome">
+        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" ng-class="{'active': isActive('/welcome')}">Welcome</div>
+    </a>
+    <a ui-sref="lorem">
+        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" ang-class="{'active': isActive('/lorem')}">Loren</div>
+    </a>
+    <a ui-sref="Ipsum">
+        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" ng-class="{'active': isActive('/Ipsum')}">Ipsum</div>
+    </a>
+    <a ui-sref="dolar">
+        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" ng-class="{'active': isActive('/dolar')}">dolar</div>
+    </a>
+
+</div>
+    <div class="lowerbody">
+    <ui-view></ui-view>
+    </div>
+</div>
+
+</body>
+</html>
